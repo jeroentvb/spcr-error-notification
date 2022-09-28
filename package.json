@@ -1,0 +1,37 @@
+{
+  "name": "spcr-error-notification",
+  "version": "1.0.0",
+  "description": "Spicetify creator plugin to show notifications in red color",
+  "main": "src/app.tsx",
+  "author": {
+    "name": "jeroentvb",
+    "url": "https://github.com/jeroentvb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeroentvb/spcr-error-notification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeroentvb/spcr-error-notification/issues"
+  },
+  "homepage": "https://github.com/jeroentvb/spcr-error-notification#readme",
+  "keywords": [
+    "spcr-plugin",
+    "error-notification"
+  ],
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .ts,.tsx ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@jeroentvb/eslint-config-typescript": "^1.3.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "eslint": "^8.9.0",
+    "eslint-plugin-react": "^7.28.0"
+  }
+}
