@@ -1,3 +1,5 @@
+This functionality is native to spicetify-cli since [v2.14](https://github.com/spicetify/spicetify-cli/releases/tag/v2.14.0)
+
 # Error notification
 Spicetify creator plugin to show error notifications. They're the normal popup notifications, but in red.
 
